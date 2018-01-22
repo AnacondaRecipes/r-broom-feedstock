@@ -10,8 +10,8 @@ package:
 source:
   fn: broom_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/broom_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/broom/broom_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/broom_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/broom/broom_{{ version }}.tar.gz
   sha256: 2e261b40006432e787dc208c2a8943c6ae714968879dd3361ba1ee6ea5603785
 
 
